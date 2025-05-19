@@ -2,7 +2,7 @@
 
 body {
     background-color: rgb(94, 94, 231);
-    font: normal 15pt Arial;
+    font: normal 13pt Arial;
 }
 header {
     color: white;
@@ -19,8 +19,7 @@ section {
 }
 
 div {
-    text-align: center;
-    padding: 9px;
+    margin-bottom: 15px;
 }
 
 footer {

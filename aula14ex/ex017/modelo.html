@@ -3,17 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modelo</title>
+    <title>Tabuada</title>
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
     <header>
-        <h1>Título</h1>
+        <h1>Tabuada</h1>
     </header>
     <section>
         <div>
+            <label for="txtnum">Número: </label>
+            <input type="number" name="txtnum" id="txtnum">
+            <input type="button" value="Gerar tabuada" onclick="tabuada()">
         </div>
         <div>
+            <textarea name="res" id="res" cols="15" rows="10" placeholder="Digite um número acima" disabled></textarea>
         </div>
     </section>
     <footer>
